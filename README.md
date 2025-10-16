@@ -144,7 +144,7 @@ MIT
 
 ## Authors
 
-- [yasmin jammeli](https://github.com/your-username)
+- [yasmin jammeli](https://github.com/yasminjammeli)
 
 ---
 
