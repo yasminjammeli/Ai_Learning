@@ -128,11 +128,8 @@ The frontend will run on [http://localhost:5173](http://localhost:5173) (default
 | MONGO_URI           | MongoDB connection string          |
 | OPENROUTER_API_KEY  | Your OpenRouter API key            |
 
----
 
-## Screenshots
 
-_Add screenshots or a demo GIF here if available._
 
 ---
 
