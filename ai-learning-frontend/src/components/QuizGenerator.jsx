@@ -11,7 +11,7 @@ export default function QuizGenerator({ document }) {
   const handleGenerate = async () => {
   setIsGenerating(true);
   try {
-    const res = await api.post('/ai/quiz', { docId: document._id, nbQuestions: 5 });
+    const res = await api.post('/ai/quiz', { docId: document._id, nbQuestions: 10 });
     navigate('/quiz', { state: { quiz: res.data.quiz, document } });
   } catch (err) {
     console.error(err);
@@ -55,7 +55,7 @@ export default function QuizGenerator({ document }) {
           </svg>
           <div>
             <p className="text-gray-700 font-medium">Document actuel : <span className="text-amber-600 font-bold">{document.titre}</span></p>
-            <p className="text-gray-500 text-sm mt-1">Un quiz de 5 questions sera généré automatiquement</p>
+            <p className="text-gray-500 text-sm mt-1">Un quiz de 10 questions sera généré automatiquement</p>
           </div>
         </div>
       </div>
